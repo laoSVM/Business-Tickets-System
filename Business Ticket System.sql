@@ -97,33 +97,7 @@ ALTER TABLE Peer DROP COLUMN CAB_Review_ID;
 
 
 ----------grant access------------
-GRANT ALL ON Team TO MIS13015;
-GRANT ALL ON Employee TO MIS13015;
-GRANT ALL ON Ticket TO MIS13015;
-GRANT ALL ON Risk TO MIS13015;
-GRANT ALL ON Change TO MIS13015;
-GRANT ALL ON Priority TO MIS13015;
-GRANT ALL ON Peer TO MIS13015;
-GRANT ALL ON CAB TO MIS13015;
-
-GRANT ALL ON Team TO GOS19002;
-GRANT ALL ON Employee TO GOS19002;
-GRANT ALL ON Ticket TO GOS19002;
-GRANT ALL ON Risk TO GOS19002;
-GRANT ALL ON Change TO GOS19002;
-GRANT ALL ON Priority TO GOS19002;
-GRANT ALL ON Peer TO GOS19002;
-GRANT ALL ON CAB TO GOS19002;
-
-GRANT ALL ON Team TO KYC15001;
-GRANT ALL ON Employee TO KYC15001;
-GRANT ALL ON Ticket TO KYC15001;
-GRANT ALL ON Risk TO KYC15001;
-GRANT ALL ON Change TO KYC15001;
-GRANT ALL ON Priority TO KYC15001;
-GRANT ALL ON Peer TO KYC15001;
-GRANT ALL ON CAB TO KYC15001;
-
+GRANT ALL ON Team TO ;
 
 
 ------------Input Essential Values----------
@@ -311,14 +285,6 @@ select * from ticket;
 
 
 ---------------create reports---------------------------------
-/*
-select * 
-from employee
-where employee_id = any (
-    select employee_id
-    from ticket
-    where risk_id = '2');
-*/
 
 select 
     tic.ticket_id, tic.emergency, tic.title, tic.start_time, tic.end_time, 
