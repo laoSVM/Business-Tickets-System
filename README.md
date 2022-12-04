@@ -1,3 +1,3 @@
 # Business-Tickets-System
 
-![](ERD.png)
+![|500](ERD.png)
