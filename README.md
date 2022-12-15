@@ -8,6 +8,7 @@ The project will involve tracking the change request throughout its lifecycle. T
 - Standard changes are changes that occur on a regular basis and are low risk/low priority and can be performed after a single peer review. 
 - Non-Standard changes are changes that do not occur on a regular basis and have a medium or high priority, in addition to a medium or high risk level. 
 - Emergency changes are (by default) changes that require peer review and CAB approval due to the nature of the change. 
+
 The primary actor in this change management process is the technician who submits the request and performs the action(s). The second actor is the peer-reviewer, who reviews and approves the change if necessary. Any major change that has a high risk and high priority must be approved by the change management board before the change request can be performed.
 
 # Database Designs
