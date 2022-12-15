@@ -285,7 +285,7 @@ select * from ticket;
 
 
 ---------------create reports---------------------------------
-
+--Select the emergency tickets and mark it as “ATTENTION”
 select 
     tic.ticket_id, tic.emergency, tic.title, tic.start_time, tic.end_time, 
     emp.employee_id, emp.first_name, emp.last_name,
