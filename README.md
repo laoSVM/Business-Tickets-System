@@ -1,6 +1,10 @@
 # Business Tickets System
 
-The system is intended to improve the change management process for the Student Affairs Information Technology department.
+Change management is a business process in the field of IT that allows for the tracking, approval, and notification of important changes, as well as the determination of potential outages. 
+
+Implementing a system for change management enables technicians to reference past changes, facilitating the identification and resolution of unintended consequences. For instance, if users encounter an issue with an enterprise application following a change made earlier in the week, the change management system can be consulted to determine whether the change may have caused the issue, and if necessary, the change can be reverted.
+
+The project is intended to improve the change management process for the Student Affairs Information Technology department.
 
 <img src="ERD.png" width="500px">
 
