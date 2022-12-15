@@ -22,3 +22,4 @@ group by
   employee.first_name, 
   employee.last_name;
 ```
+<img src="Highest Tickets.png" width="500px">
