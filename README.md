@@ -4,7 +4,13 @@ Change management is a business process in the field of IT that allows for the t
 
 Implementing a system for change management enables technicians to reference past changes, facilitating the identification and resolution of unintended consequences. For instance, if users encounter an issue with an enterprise application following a change made earlier in the week, the change management system can be consulted to determine whether the change may have caused the issue, and if necessary, the change can be reverted.
 
-The project is intended to improve the change management process for the Student Affairs Information Technology department.
+The project will involve tracking the change request throughout its lifecycle. There are several types of changes, each with corresponding risk and priority values that determine the type of request. The types of changes that will be included are Standard, Non-Standard, and Emergency. For each of these change types, risk and priority values are assigned to the change to determine if the action requires peer review or approval by the Change Management Board (CAB). 
+- Standard changes are changes that occur on a regular basis and are low risk/low priority and can be performed after a single peer review. 
+- Non-Standard changes are changes that do not occur on a regular basis and have a medium or high priority, in addition to a medium or high risk level. 
+- Emergency changes are (by default) changes that require peer review and CAB approval due to the nature of the change. 
+The primary actor in this change management process is the technician who submits the request and performs the action(s). The second actor is the peer-reviewer, who reviews and approves the change if necessary. Any major change that has a high risk and high priority must be approved by the change management board before the change request can be performed.
+
+# Database Designs
 
 <img src="ERD.png" width="500px">
 
