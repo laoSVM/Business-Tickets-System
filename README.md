@@ -1,5 +1,5 @@
 # Business Tickets System
-
+![](https://img.shields.io/badge/Oracle-SQL-red)
 <img src="Change.png" width="1000px">
 Change management is a business process in the field of IT that allows for the tracking, approval, and notification of important changes, as well as the determination of potential outages. 
 
