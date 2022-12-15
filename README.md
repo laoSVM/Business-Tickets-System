@@ -13,7 +13,7 @@ The primary actor in this change management process is the technician who submit
 
 # Database Designs
 
-<img src="ERD with UML notations.png" width="500px">
+<img src="ERD with UML notations.png" width="1000px">
 
 # Example Reports
 
